@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* valores padrão — cada barbearia sobrescreve isso a partir de barbershops.theme */
+  --tenant-ink: #161311;
+  --tenant-cream: #efe6d3;
+  --tenant-red: #a62422;
+  --tenant-navy: #1c3a5e;
+  --tenant-brass: #b98a2e;
+}
+
+body {
+  background: var(--tenant-cream);
+  color: var(--tenant-ink);
+}
